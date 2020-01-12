@@ -20,5 +20,5 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BASE_BRANCH: master
           BRANCH: gh-pages
-          FOLDER: build/adventofcode2019blazor/dist
+          FOLDER: build/AdventOfCode.Blazor/dist
           CLEAN: true

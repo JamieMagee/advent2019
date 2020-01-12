@@ -1,0 +1,14 @@
+@page "/{Year:int}/{Day:int}"
+
+<h3>Day @Day</h3>
+<div style="display: flex; margin-top: 1em">
+    <button style="height: 70px; width: 150px; margin-right: 1em" @onclick="SolveAsync" class="btn btn-primary">
+        <span>Solve</span>
+    </button>
+</div>
+<div>
+   @foreach (var (result, number) in Results.Select((x, i) => (x, i + 1)))
+  {
+    <p>@result</p>
+  }
+</div>

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Blazor.Hosting;
 
-namespace adventofcode2019blazor
+namespace AdventOfCode.Blazor
 {
     public class Program
     {
